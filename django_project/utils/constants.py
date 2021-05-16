@@ -1,0 +1,8 @@
+USER_ROLE_SUPER_USER = 1
+USER_ROLE_ARTIST = 2
+USER_ROLE_CLIENT = 3
+USER_ROLES = (
+    (USER_ROLE_SUPER_USER, 'super admin'),
+    (USER_ROLE_ARTIST, 'artist'),
+    (USER_ROLE_CLIENT, 'client'),
+)
